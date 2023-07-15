@@ -1,8 +1,7 @@
 html {
     align-content: center;
     align-items: center;
-    background-color: gray;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
 
@@ -12,31 +11,32 @@ body {
 
 header {
     outline: 0px;
-    background-color: ghostwhite;
 }
 
 footer {
-    background-color: ghostwhite;
     padding: 10px;
 }
 
-.navButtons a {
-    color: gray;
+.navButtons {
     text-decoration: none;
-    margin: 5px;;
-    padding: 5px;;
+    margin: 5px;
+    padding: 5px;
+}
+
+.navButtons a {
+    color: #ffffff;
+    text-decoration: none;
 }
 
 .navButtons a:hover {
-    color: rgb(0, 0, 0);
+    color: #747474;
     text-decoration: none;
-    margin: 5px;;
-    padding: 5px;;
 }
 
 .frontBar {
     display: flex;
     align-items: center;
+    background-color: #9cd6e4;
 }
 
 .frontBar img {
