@@ -1,0 +1,44 @@
+html {
+    align-content: center;
+    align-items: center;
+    background-color: gray;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+body {
+    margin: 0px;
+}
+
+header {
+    outline: 0px;
+    background-color: ghostwhite;
+}
+
+footer {
+    background-color: ghostwhite;
+    padding: 10px;
+}
+
+.navButtons a {
+    color: gray;
+    text-decoration: none;
+    margin: 5px;;
+    padding: 5px;;
+}
+
+.navButtons a:hover {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin: 5px;;
+    padding: 5px;;
+}
+
+.frontBar {
+    display: flex;
+    align-items: center;
+}
+
+.frontBar img {
+    width: 8%;
+}
