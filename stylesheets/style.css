@@ -43,6 +43,6 @@ footer {
     width: 8%;
 }
 
-.taskbartext {
+.w3-bar-item w3-button w3-green {
     font-family: Monaco;
 }
