@@ -42,3 +42,7 @@ footer {
 .frontBar img {
     width: 8%;
 }
+
+.taskbartext {
+    font-family: Monaco;
+}
