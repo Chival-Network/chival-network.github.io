@@ -1,30 +1,74 @@
 <!DOCTYPE html>
-<meta charset="UTF-8">
-<title>Chival Home</title>
+<html lang="en">
+<head>
+    <!-- <base href="/chival-webtest/"> -->
 
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<html>
-    <header>
-        <div class="w3-container w3-teal">
-            <div class="w3-bar">
-                <img class="w3-left" src="assets/chivalStore.png" style="width: 100%; max-width: 8%; max-height: 8%; padding: 0%; margin: 0%;">
-                <a class="taskbartext" href="./index.html" class="w3-bar-item w3-button w3-green" >Home</a>
-                <a class="taskbartext" href="./about-us.html" class="w3-bar-item w3-button" >About Us</a>
-                <a class="taskbartext" href="#" class="w3-bar-item w3-button">Shop</a>
-                <a href="http://panel.chival.au:82" class="w3-bar-item w3-button w3-right">Panel</a>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <title>Chival Network</title>
+
+</head>
+<body style="padding-top: 56px;">
+    <nav class="navbar fixed-top navbar-expand-lg text-white" style="background-color: teal;">
+        <div class="container-fluid">
+            <a href="index.html" class="navbar-brand h-100 d-flex ">
+                <img src="image/chival-logo.png" alt="Chival Website Logo" height="30">
+            </a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-coll">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-coll">
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link text-white">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link text-white">About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link text-white">Store</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="http://panel.chival.au:82/" class="nav-link text-white">Admin Panel</a>
+                    </li>
+                </ul>
             </div>
         </div>
-    </header>
+    </nav>
 
-    <body>
-        <div id="main" class="w3-container">
-            <h1>Welcome to the chival websiteeeeee</h1>
-            <p>This website needs a web designer.</p>
+    <div class="container-fluid d-flex justify-content-center flex-column" style="background-position-y: center; background-size: cover; background-image: url(https://acmi-website-media-prod.s3.ap-southeast-2.amazonaws.com/media/images/landscape-minecraft-shaders-river-wallpaper.original.jpg);">
+        <h1 class="m-5 mx-auto" style="text-shadow: 0px 0px 5px rgb(255, 255, 255);">Welcome to Chival</h1>
+        <div class="btn-group mb-5 mx-auto" style="max-width: 600px; width: 100%;">
+            <a href="#" class="btn btn-success" style="min-width:33.33%;">
+                <i class="bi bi-controller"></i>
+                Play
+            </a>
+            <a href="#" class="btn btn-primary" style="min-width:33.33%;">
+                <i class="bi bi-discord"></i>
+                Discord
+            </a>
+            <a href="#" class="btn btn-danger" style="min-width:33.33%;">
+                <i class="bi bi-shop"></i>
+                Store
+            </a>
         </div>
-    </body>
-
-    <footer class="w3-container w3-teal w3-bottom">
-        Chival Network (c) 2023    |    Website by <a href="http://github.com/hcnery08">Harvey Nery</a>
-    </footer>
+    </div>
+    <div class="container-fluid pt-3 pb-3" style="background-color: teal;"></div>
+    <div class="container-fluid p-5 d-flex justify-content-center">
+        <!--MAIN-->
+        <div class="">This website is still in development.</div>
+    </div>
+    <br>
+    <div class="container-fluid p-2 text-light" style="background-color: teal; font-weight: bold; bottom: 0; position: absolute;">
+        <!--FOOTER-->
+        Website &copy; Copyright Chival Network 2023<br>
+        By <a class="text-light" href="https://github.com/infinity-atom">InfinityAtom</a> |
+        <a class="text-light" href="https://github.com/Chival-Network/chival-network.github.io">Website Source</a>
+    </div>
+</body>
 </html>
