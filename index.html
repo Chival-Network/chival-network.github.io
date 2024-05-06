@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- <base href="/chival-webtest/"> -->
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -13,86 +11,96 @@
     <title>Chival Network</title>
 
     <link rel="shortcut icon" href="/image/turtle.png" type="image/x-icon">
-    <head>
-        <link rel="stylesheet" href="chival.css">
-      </head>
-
+    <link rel="stylesheet" href="/css/chival.css">
 </head>
-<body style="padding-top: 56px;">
-    <nav class="navbar fixed-top navbar-expand-lg text-white" style="background-color: teal;">
+<body>
+    <nav class="navbar navbar-expand-sm bg-teal navbar-light">
         <div class="container-fluid">
-            <a href="index.html" class="navbar-brand h-100 d-flex ">
-                <img src="image/chival-logo.png" alt="Chival Website Logo" height="30">
-            </a>
-            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-coll">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbar-coll">
+            <ul class="navbar-nav">
+                <a class="navbar-brand" href="/">
+                    <img src="image/chival-logo.png" alt="Chival Logo" height="30">
+                </a>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Store</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Discord</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="http://panel.chival.au:82/">Panel</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container-fluid chival-bg pt-5 pb-5">
+        <div class="container pt-5 pb-5"></div>
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8 text-center">
+                <h1 class="display-2 text-light chival-shadow">Welcome to <b>Chival</b></h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4 text-center">
+                <div class="input-group">
+                    <input type="text" class="form-control" value="mc.chival.au" readonly>
+                    <button class="btn btn-primary" onclick="
+                        navigator.clipboard.writeText('mc.chival.au');
+                        this.children[0].classList.remove('bi-clipboard');
+                        this.children[0].classList.add('bi-clipboard-check');
+                    ">
+                        <i class="bi bi-clipboard"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="container pt-5 pb-5"></div>
+    </div>
+    <div class="container-fluid pt-2 pb-2 bg-teal">
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4 d-flex justify-content-center">
                 <ul class="nav">
                     <li class="nav-item">
-                        <a href="index.html" class="nav-link text-white">Home</a>
+                        <a class="nav-link text-dark" href="#">
+                            <i class="bi bi-discord"></i>
+                            Discord
+                        </a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link text-white">About us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link text-white">Store</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="http://panel.chival.au:82/" class="nav-link text-white">Admin Panel</a>
+                        <a class="nav-link text-dark" href="#">
+                            <i class="bi bi-shop"></i>
+                            Store
+                        </a>
                     </li>
                 </ul>
             </div>
         </div>
-    </nav>
-
-    <div class="container-fluid d-flex justify-content-center flex-column" style="background-position-y: center; background-size: cover; background-image: url(image/background.png);">
-        <h1 class="m-5 mx-auto" style="text-shadow: 0px 0px 5px rgb(255, 255, 255);">Welcome to Chival :)</h1>
-        <div class="btn-group mb-5 mx-auto" style="max-width: 600px; width: 100%;">
-            <a href="play.html" class="btn btn-success" style="min-width:33.33%;">
-                <i class="bi bi-controller"></i>
-                Play
-            </a>
-            <a href="https://discord.gg/tzK7NsSSt3" class="btn btn-primary" style="min-width:33.33%;">
-                <i class="bi bi-discord"></i>
-                Discord 
-            </a>
-            <a href="#" class="btn btn-danger" style="min-width:33.33%;">
-                <i class="bi bi-shop"></i>
-                Store
-                
-
-            </a>
+    </div>
+    <div class="container-fluid p-5">
+        <h1 class="text-center mb-3">Chival News</h1>
+        <div class="container">
+            <div class="card">
+                <img src="https://placehold.co/600x100" alt="News Thumbnail" class="card-img-top">
+                <div class="card-body">
+                    <h2>Title</h2>
+                    <p>
+                        Body
+                    </p>
+                </div>
+            </div>
         </div>
     </div>
-    <div class="container-fluid pt-3 pb-3" style="background-color: teal;"></div>
-    <div class="container-fluid p-5 d-flex justify-content-center">
-        <!--MAIN-->
-        <div class=>This website is still in development. It's on its way!</div>
-    </div>
-    <br>
-    <div class="header">
-        <h2>Chival News</h2>
-      </div>
-      
-      <div class="row">
-        <div class="leftcolumn">
-          <div class="card">
-            <h2>Chival News</h2>
-            <h5></h5>
-            <div class="fakeimg" style="height:200px;">Image</div>
-            <p>Stay Tuned!</p>
-          </div>
-          <br>
-      <br>
-    <div class="container-fluid p-2 text-light" style="background-color: teal; font-weight: bold; bottom: 0; position: bottom;">
-            <!--FOOTER-->
-            Website &copy; Copyright Chival Network 2023 <br>
-            By <a class="text-light" href="https://github.com/infinity-atom">InfinityAtom</a> |
-            <a class="text-light" href="https://github.com/Chival-Network/chival-network.github.io">Website Source</a>
+    <footer>
+        <div class="container-fluid bg-teal text-center p-3">
+            <p class="text-light">&copy; 2023-2024 Chival Network</p>
         </div>
-      </div>
-
-    
+    </footer>
 </body>
 </html>

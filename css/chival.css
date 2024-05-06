@@ -1,0 +1,17 @@
+.bg-teal {
+    background-color: rgb(0, 158, 158);
+}
+
+.text-teal {
+    color: rgb(0, 158, 158);
+}
+
+.chival-bg {
+    background-image: url("/image/background.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.chival-shadow {
+    text-shadow: -2px -2px 3px #000, 2px -2px 3px #000, -2px 2px 3px #000, 2px 2px 3px #000;
+}
